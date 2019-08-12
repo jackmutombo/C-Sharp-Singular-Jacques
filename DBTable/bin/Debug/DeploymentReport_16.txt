@@ -1,0 +1,25 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[Basket] (Table)
+       [dbo].[BasketDetail] (Table)
+       [dbo].[Product] (Table)
+       Default Constraint: unnamed constraint on [dbo].[Basket] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[BasketDetail] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[BasketDetail] (Default Constraint)
+       [dbo].[FK_Basket_ToUser] (Foreign Key)
+       [dbo].[FK_BasketDetail_ToBasket] (Foreign Key)
+       [dbo].[FK_BasketDetail_ToProduct] (Foreign Key)
+       [dbo].[spAddress_Insert] (Procedure)
+       [dbo].[spUser_Insert] (Procedure)
+
+** Supporting actions
